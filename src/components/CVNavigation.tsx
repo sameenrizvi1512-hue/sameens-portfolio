@@ -7,6 +7,7 @@ import s_wall from "@/assets/s-wall.jpg";
 const CVNavigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState("hero");
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -45,6 +46,8 @@ const CVNavigation = () => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
+      // Close mobile menu after clicking a navigation link
+      setIsMobileMenuOpen(false);
     }
   };
 
@@ -102,9 +105,13 @@ const CVNavigation = () => {
 
           {/* Mobile Menu */}
           <div className="lg:hidden">
-            <Sheet>
+            <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="icon">
+                <Button 
+                  variant="ghost" 
+                  size="icon"
+                  onClick={() => setIsMobileMenuOpen(true)}
+                >
                   <Menu className="w-6 h-6" />
                 </Button>
               </SheetTrigger>
