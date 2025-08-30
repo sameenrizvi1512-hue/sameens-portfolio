@@ -59,7 +59,7 @@ const CVNavigation = () => {
           <div className="flex items-center space-x-3">
             <img className="w-10 h-10 rounded-md" src={s_wall} alt="name-wallpaper" />
             <div>
-              <h3 className="font-bold text-foreground text-lg">Syeda Sameen</h3>
+              <h3 className="font-bold text-foreground text-lg">Sameen Rizvi</h3>
               <p className="text-muted-foreground text-sm">Digital Marketing Professional</p>
             </div>
           </div>
