@@ -1,6 +1,7 @@
 import { Briefcase, Calendar, MapPin, TrendingUp, ShoppingBag, Users } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import expBg from "@/assets/exp-wall.jpg";
 
 const CVExperience = () => {
   const experienceData = [
@@ -41,7 +42,13 @@ const CVExperience = () => {
 
   return (
     <section id="experience" className="py-20 bg-background">
-      <div className="container mx-auto px-6">
+      {/* Background decoration */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-80 blur-sm transition-all duration-1000 hover:scale-105"
+        style={{ backgroundImage: `url(${expBg})` }}
+      ></div>
+      <div className="absolute inset-0 brightness-50"></div>
+      <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
             <Briefcase className="w-4 h-4" />

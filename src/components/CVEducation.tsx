@@ -1,6 +1,7 @@
 import { GraduationCap, Calendar, MapPin } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import academicBg from "@/assets/academic-bg.png";
 
 const CVEducation = () => {
   const educationData = [
@@ -32,15 +33,20 @@ const CVEducation = () => {
   ];
 
   return (
-    <section id="education" className="py-20 bg-muted/50">
-      <div className="container mx-auto px-6">
+    <section id="education" className="mt-4 py-20 bg-muted/50">
+      {/* Background decoration */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70 blur-sm transition-all duration-1000"
+        style={{ backgroundImage: `url(${academicBg})` }}
+      ></div>
+      <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-12">
-          <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
+          <div className="inline-flex items-center gap-2 bg-white/50 text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
             <GraduationCap className="w-4 h-4" />
             Education
           </div>
-          <h2 className="text-4xl font-bold text-foreground mb-4">Academic Background</h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+          <h2 className="text-4xl font-bold text-white/90 mb-4">Academic Background</h2>
+          <p className="text-muted text-lg max-w-2xl mx-auto">
             My educational journey focusing on business, finance, and commerce
           </p>
         </div>

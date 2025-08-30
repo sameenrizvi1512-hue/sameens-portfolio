@@ -2,6 +2,7 @@ import { Award, Calendar, ExternalLink, CheckCircle } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import certBg from "@/assets/certification-bg.jpg";
 
 const CVCertifications = () => {
   const certifications = [
@@ -67,15 +68,20 @@ const CVCertifications = () => {
   ];
 
   return (
-    <section id="certifications" className="py-20 bg-muted/30">
-      <div className="container mx-auto px-6">
+    <section id="certifications" className="mt-4 py-20 bg-muted/30">
+      {/* Background decoration */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70 blur-sm transition-all duration-1000"
+        style={{ backgroundImage: `url(${certBg})` }}
+      ></div>
+      <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-12">
-          <div className="inline-flex items-center gap-2 bg-success/10 text-success px-4 py-2 rounded-full text-sm font-medium mb-4">
+          <div className="inline-flex items-center gap-2 bg-green-700/40 text-green-300 px-4 py-2 rounded-full text-sm font-medium mb-4">
             <Award className="w-4 h-4" />
             Certifications & Achievements
           </div>
-          <h2 className="text-4xl font-bold text-foreground mb-4">Professional Certifications</h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+          <h2 className="text-4xl font-bold text-white/90 mb-4">Professional Certifications</h2>
+          <p className="text-white/85 text-lg max-w-2xl mx-auto">
             Continuous learning and professional development through industry-recognized certifications
           </p>
         </div>

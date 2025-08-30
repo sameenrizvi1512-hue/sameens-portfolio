@@ -2,6 +2,7 @@ import { Brain, Users, Laptop, TrendingUp, MessageSquare, Target, BarChart, Ligh
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
+import skillBg from "@/assets/skills-bg2.jpg";
 
 const CVSkills = () => {
   const skillCategories = [
@@ -87,8 +88,13 @@ const CVSkills = () => {
   };
 
   return (
-    <section id="skills" className="py-20 bg-background">
-      <div className="container mx-auto px-6">
+    <section id="skills" className="mt-4 py-20 bg-background">
+      {/* Background decoration */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70 blur-sm transition-all duration-1000"
+        style={{ backgroundImage: `url(${skillBg})` }}
+      ></div>
+      <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
             <Brain className="w-4 h-4" />

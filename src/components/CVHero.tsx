@@ -13,8 +13,6 @@ const CVHero = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30 transition-all duration-1000 hover:scale-105"
         style={{ backgroundImage: `url(${heroBg})` }}
       ></div>
-      {/* Background decoration */}
-      <div className="absolute inset-0 brightness-50 bg-gradient-hero opacity-50"></div>
       
       
       <div className="container mx-auto px-4 py-16 sm:px-6 sm:py-20 relative z-10">
@@ -23,7 +21,7 @@ const CVHero = () => {
           <div className="text-white lg:col-span-2 space-y-12">
             <div className="space-y-10">
               <div className="space-y-6">
-                <div className="bg-black bg-opacity-15 inline-block p-6 rounded-lg shadow-inner backdrop-blur-md shadow-gray-950/30">
+                <div className="bg-black bg-opacity-15 inline-block p-6 rounded-lg shadow-inner backdrop-blur-sm shadow-gray-950/30">
                   <h1 className="whitespace-nowrap text-3xl md:text-6xl font-bold leading-[1.2] tracking-tight text-center lg:text-left animate-fadeInUp">
                     <span className="inline mb-0 sm:mb-0 transition-all duration-700 hover:text-accent">Syeda Dur-e-</span>
                     <span className="bg-gradient-accent bg-clip-text text-transparent transition-all duration-700 hover:scale-105 inline-block">Sameen</span>
