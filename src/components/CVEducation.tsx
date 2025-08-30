@@ -45,8 +45,8 @@ const CVEducation = () => {
             <GraduationCap className="w-4 h-4" />
             Education
           </div>
-          <h2 className="text-4xl font-bold text-white/90 mb-4">Academic Background</h2>
-          <p className="text-muted text-lg max-w-2xl mx-auto">
+          <h2 className="text-4xl font-bold text-foreground md:text-white/90 mb-4">Academic Background</h2>
+          <p className="text-muted-foreground md:text-muted text-lg max-w-2xl mx-auto">
             My educational journey focusing on business, finance, and commerce
           </p>
         </div>
