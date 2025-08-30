@@ -28,7 +28,7 @@ const CVHero = () => {
                   </h1>
                   
                   <div className="space-y-8">
-                    <h2 className="mb-12 text-lg md:text-3xl lg:text-4xl text-white/85 italic font-normal leading-tight tracking-wide text-center lg:text-left animate-fadeInUp animate-stagger-1">
+                    <h2 className="mb-12 text-lg md:text-3xl text-white/85 italic font-normal leading-tight tracking-wide text-center lg:text-left animate-fadeInUp animate-stagger-1">
                       Digital Marketing Professional
                     </h2>
                     
