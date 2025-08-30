@@ -23,55 +23,57 @@ const CVHero = () => {
           <div className="text-white lg:col-span-2 space-y-12">
             <div className="space-y-10">
               <div className="space-y-6">
-                <h1 className="whitespace-nowrap mt-6 text-3xl md:text-6xl font-bold leading-[1.2] tracking-tight text-center lg:text-left animate-fadeInUp">
-                  <span className="inline mb-0 sm:mb-0 transition-all duration-700 hover:text-accent">Syeda Dur-e-</span>
-                  <span className="bg-gradient-accent bg-clip-text text-transparent transition-all duration-700 hover:scale-105 inline-block">Sameen</span>
-                </h1>
-                
-                <div className="space-y-8">
-                  <h2 className="mb-12 text-lg md:text-3xl lg:text-4xl text-white/85 font-semibold italic leading-tight tracking-wide text-center lg:text-left animate-fadeInUp animate-stagger-1">
-                    Digital Marketing Professional
-                  </h2>
+                <div className="bg-black bg-opacity-15 inline-block p-6 rounded-lg shadow-inner backdrop-blur-md shadow-gray-950/30">
+                  <h1 className="whitespace-nowrap text-3xl md:text-6xl font-bold leading-[1.2] tracking-tight text-center lg:text-left animate-fadeInUp">
+                    <span className="inline mb-0 sm:mb-0 transition-all duration-700 hover:text-accent">Syeda Dur-e-</span>
+                    <span className="bg-gradient-accent bg-clip-text text-transparent transition-all duration-700 hover:scale-105 inline-block">Sameen</span>
+                  </h1>
                   
-                  <div className="max-w-4xl space-y-8 px-2 lg:px-0">
-                    <p className="text-lg sm:text-xl md:text-2xl text-white/95 leading-relaxed font-medium animate-fadeInUp animate-stagger-2">
-                      Passionate marketing strategist with proven expertise in:
-                    </p>
+                  <div className="space-y-8">
+                    <h2 className="mb-12 text-lg md:text-3xl lg:text-4xl text-white/85 font-semibold italic leading-tight tracking-wide text-center lg:text-left animate-fadeInUp animate-stagger-1">
+                      Digital Marketing Professional
+                    </h2>
                     
-                    <div className="space-y-6 pl-0 lg:pl-6 sm:pl-0 sm:lg:pl-8">
-                      <div className="flex items-start gap-6 animate-fadeInUp animate-stagger-3 hover:translate-x-2 transition-transform duration-300">
-                        <div className="w-3 h-3 bg-accent rounded-full mt-2 flex-shrink-0 animate-pulse-slow"></div>
-                        <div className="space-y-2">
-                          <p className="text-lg sm:text-xl md:text-2xl text-accent font-bold transition-all duration-300 hover:scale-105">
-                            Social Media Marketing
-                          </p>
-                          <p className="text-base sm:text-lg text-white/80 leading-loose">
-                            Creating engaging campaigns that drive real results
-                          </p>
-                        </div>
-                      </div>
+                    <div className="max-w-4xl space-y-8 px-2 lg:px-0">
+                      <p className="text-lg sm:text-xl md:text-2xl text-white/95 leading-relaxed font-medium animate-fadeInUp animate-stagger-2">
+                        Passionate marketing strategist with proven expertise in:
+                      </p>
                       
-                      <div className="flex items-start gap-6 animate-fadeInUp animate-stagger-4 hover:translate-x-2 transition-transform duration-300">
-                        <div className="w-3 h-3 bg-accent rounded-full mt-2 flex-shrink-0 animate-pulse-slow" style={{animationDelay: '0.5s'}}></div>
-                        <div className="space-y-2">
-                          <p className="text-lg sm:text-xl md:text-2xl text-accent font-bold transition-all duration-300 hover:scale-105">
-                            Customer Relationship Management
-                          </p>
-                          <p className="text-base sm:text-lg text-white/80 leading-loose">
-                            Building lasting connections with clients
-                          </p>
+                      <div className="space-y-6 pl-0 lg:pl-6 sm:pl-0 sm:lg:pl-8">
+                        <div className="flex items-start gap-6 animate-fadeInUp animate-stagger-3 hover:translate-x-2 transition-transform duration-300">
+                          <div className="w-3 h-3 bg-accent rounded-full mt-2 flex-shrink-0 animate-pulse-slow"></div>
+                          <div className="space-y-2">
+                            <p className="text-lg sm:text-xl md:text-2xl text-accent font-bold transition-all duration-300 hover:scale-105">
+                              Social Media Marketing
+                            </p>
+                            <p className="text-base sm:text-lg text-white/80 leading-loose">
+                              Creating engaging campaigns that drive real results
+                            </p>
+                          </div>
                         </div>
-                      </div>
-                      
-                      <div className="flex items-start gap-6 animate-fadeInUp animate-stagger-5 hover:translate-x-2 transition-transform duration-300">
-                        <div className="w-3 h-3 bg-accent rounded-full mt-2 flex-shrink-0 animate-pulse-slow" style={{animationDelay: '1s'}}></div>
-                        <div className="space-y-2">
-                          <p className="text-lg sm:text-xl md:text-2xl text-accent font-bold transition-all duration-300 hover:scale-105">
-                            Entrepreneurial Ventures
-                          </p>
-                          <p className="text-base sm:text-lg text-white/80 leading-loose">
-                            Innovative business solutions and strategies
-                          </p>
+                        
+                        <div className="flex items-start gap-6 animate-fadeInUp animate-stagger-4 hover:translate-x-2 transition-transform duration-300">
+                          <div className="w-3 h-3 bg-accent rounded-full mt-2 flex-shrink-0 animate-pulse-slow" style={{animationDelay: '0.5s'}}></div>
+                          <div className="space-y-2">
+                            <p className="text-lg sm:text-xl md:text-2xl text-accent font-bold transition-all duration-300 hover:scale-105">
+                              Customer Relationship Management
+                            </p>
+                            <p className="text-base sm:text-lg text-white/80 leading-loose">
+                              Building lasting connections with clients
+                            </p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex items-start gap-6 animate-fadeInUp animate-stagger-5 hover:translate-x-2 transition-transform duration-300">
+                          <div className="w-3 h-3 bg-accent rounded-full mt-2 flex-shrink-0 animate-pulse-slow" style={{animationDelay: '1s'}}></div>
+                          <div className="space-y-2">
+                            <p className="text-lg sm:text-xl md:text-2xl text-accent font-bold transition-all duration-300 hover:scale-105">
+                              Entrepreneurial Ventures
+                            </p>
+                            <p className="text-base sm:text-lg text-white/80 leading-loose">
+                              Innovative business solutions and strategies
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>

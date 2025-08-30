@@ -90,7 +90,8 @@ export default {
 				'medium': 'var(--shadow-medium)',
 				'strong': 'var(--shadow-strong)',
 				'glow': 'var(--shadow-glow)',
-				'accent': 'var(--shadow-accent)'
+				'accent': 'var(--shadow-accent)',
+				'shadow-inner': 'inset 0 2px 4px 4px rgb(0 0 0 / 0.05)',
 			},
 			transitionTimingFunction: {
 				'smooth': 'var(--transition-smooth)',
