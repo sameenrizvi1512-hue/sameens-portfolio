@@ -119,7 +119,7 @@ const CVNavigation = () => {
                 <div className="flex flex-col space-y-6 mt-8">
                   <div className="text-center pb-6 border-b border-border">
                     <div className="w-16 h-16 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center text-white font-bold text-xl">
-                      <img src={s_wall} alt="name-wallpaper" />
+                      <img className="rounded-md" src={s_wall} alt="name-wallpaper" />
                     </div>
                     <h3 className="font-bold text-foreground text-lg">Sameen Rizvi</h3>
                     <p className="text-muted-foreground">Digital Marketing Professional</p>
