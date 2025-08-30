@@ -22,18 +22,18 @@ const CVHero = () => {
             <div className="space-y-10">
               <div className="space-y-6">
                 <div className="bg-black bg-opacity-15 inline-block p-6 rounded-lg shadow-inner backdrop-blur-sm shadow-gray-950/30">
-                  <h1 className="whitespace-nowrap text-3xl md:text-6xl font-bold leading-[1.2] tracking-tight text-center lg:text-left animate-fadeInUp">
+                  <h1 className="whitespace-nowrap text-3xl md:text-5xl font-bold leading-[1.2] tracking-tight text-center lg:text-left animate-fadeInUp">
                     <span className="inline mb-0 sm:mb-0 transition-all duration-700 hover:text-accent">Syeda Dur-e-</span>
                     <span className="bg-gradient-accent bg-clip-text text-transparent transition-all duration-700 hover:scale-105 inline-block">Sameen</span>
                   </h1>
                   
                   <div className="space-y-8">
-                    <h2 className="mb-12 text-lg md:text-3xl lg:text-4xl text-white/85 font-semibold italic leading-tight tracking-wide text-center lg:text-left animate-fadeInUp animate-stagger-1">
+                    <h2 className="mb-12 text-lg md:text-3xl lg:text-4xl text-white/85 italic leading-tight tracking-wide text-center lg:text-left animate-fadeInUp animate-stagger-1">
                       Digital Marketing Professional
                     </h2>
                     
                     <div className="max-w-4xl space-y-8 px-2 lg:px-0">
-                      <p className="text-lg sm:text-xl md:text-2xl text-white/95 leading-relaxed font-medium animate-fadeInUp animate-stagger-2">
+                      <p className="text-lg sm:text-xl text-white/95 leading-relaxed font-medium animate-fadeInUp animate-stagger-2">
                         Passionate marketing strategist with proven expertise in:
                       </p>
                       
